@@ -7,4 +7,8 @@ export class Mercury {
   calcAge() {
     this.relativeAge = Math.round(this.age * this.relativeYear);
   }
+
+  calcRemaining() {
+
+  }
 }

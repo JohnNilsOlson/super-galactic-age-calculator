@@ -15,35 +15,67 @@ $(document).ready(function() {
     $("#earth-age").text(age);
   
     $("button#mercury").click(function() {
+      $("#venus").fadeOut(1500);
+      $("#mars").fadeOut(1500);
+      $("#jupiter").fadeOut(1500);
+
       let mercury = new Mercury(age);
       mercury.calcAge();
       mercury.calcRemaining();
-      $("#mercury-age").text(mercury.relativeAge);
-      $("#mercury-remaining").text(mercury.yearsRemaining);
+
+      setTimeout(function() {
+        $("#mercury-age").text(mercury.relativeAge);
+        $("#mercury-remaining").text(mercury.yearsRemaining);
+        $("#mercury").fadeIn(1500);
+      },1500);
     });
 
     $("button#venus").click(function() {
+      $("#mercury").fadeOut(1500);
+      $("#mars").fadeOut(1500);
+      $("#jupiter").fadeOut(1500);
+
       let venus = new Venus(age);
       venus.calcAge();
       venus.calcRemaining();
-      $("#venus-age").text(venus.relativeAge);
-      $("#venus-remaining").text(venus.yearsRemaining);
+
+      setTimeout(function() {
+        $("#venus-age").text(venus.relativeAge);
+        $("#venus-remaining").text(venus.yearsRemaining);
+        $("#venus").fadeIn(1500);
+      },1500);
     });
 
     $("button#mars").click(function() {
+      $("#mercury").fadeOut(1500);
+      $("#venus").fadeOut(1500);
+      $("#jupiter").fadeOut(1500);
+
       let mars = new Mars(age);
       mars.calcAge();
       mars.calcRemaining();
-      $("#mars-age").text(mars.relativeAge);
-      $("#mars-remaining").text(mars.yearsRemaining);
+
+      setTimeout(function() {
+        $("#mars-age").text(mars.relativeAge);
+        $("#mars-remaining").text(mars.yearsRemaining);
+        $("#mars").fadeIn(1500);
+      },1500);
     });
 
     $("button#jupiter").click(function() {
+      $("#mercury").fadeOut(1500);
+      $("#venus").fadeOut(1500);
+      $("#mars").fadeOut(1500);
+
       let jupiter = new Jupiter(age);
       jupiter.calcAge();
       jupiter.calcRemaining();
-      $("#jupiter-age").text(jupiter.relativeAge);
-      $("#jupiter-remaining").text(jupiter.yearsRemaining);
+
+      setTimeout(function() {
+        $("#jupiter-age").text(jupiter.relativeAge);
+        $("#jupiter-remaining").text(jupiter.yearsRemaining);
+        $("#jupiter").fadeIn(1500);
+      },1500);
     });
   });
 });

@@ -20,7 +20,7 @@ User enters thier age to determine their relative age and years of life remainin
 | Program calculates users remaining years of life on Mercury | 33 | 9 |
 | Program calculates users remaining years of life on Venus | 33 | 24 |
 | Program calculates users remaining years of life on Mars | 33 | 71 |
-| Program calculates users remaining years of life on Jupiter | 33 | 742 |
+| Program calculates users remaining years of life on Jupiter | 33 | 451 |
 
 ## Technologies Used
 JavaScript  

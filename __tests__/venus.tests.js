@@ -19,6 +19,6 @@ describe('venus', () => {
   });
 
   test('should correctly calculate remaining years of life on venus', () => {
-    expect(newVenus.yearsRemaining).toEqual(9);
+    expect(newVenus.yearsRemaining).toEqual(24);
   });
 });

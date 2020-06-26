@@ -8,7 +8,7 @@ export class Mars {
     this.relativeAge = Math.round(this.age * this.relativeYear);
   }
 
-  calcRemiaing() {
+  calcRemaining() {
     this.yearsRemaining = Math.round((71 * this.relativeYear) - this.relativeAge);
   }
 }

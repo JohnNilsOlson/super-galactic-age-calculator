@@ -7,7 +7,7 @@ describe('mars', () => {
   beforeEach(() => {
     newMars = new Mars(33);
     newMars.calcAge();
-    newMars.calcRemiaing();
+    newMars.calcRemaining();
   });
 
   test('should correctly build mercury object', () => {

@@ -1,9 +1,109 @@
+body {
+  background-color: black;
+  width: 500px;
+  margin: auto;
+  color: white;
+  
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .planet {
   display: none;
-  margin: auto;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 img {
   width: 500px;
   border-radius: 25px;
 }
+
+#place-holder {
+  width: 500px;
+  height: 500px;
+  background-color: black;  
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: white;
+}
+
+.age {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.remaining {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mercury-age {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mercury-remaining {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#venus-age {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#venus-remaining {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mars-age {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mars-remaining {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#jupiter-age {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#jupiter-remaining {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+

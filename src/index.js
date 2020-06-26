@@ -15,6 +15,7 @@ $(document).ready(function() {
     $("#earth-age").text(age);
   
     $("button#mercury-button").click(function() {
+      $("#place-holder").fadeOut(1500);
       $("#venus").fadeOut(1500);
       $("#mars").fadeOut(1500);
       $("#jupiter").fadeOut(1500);
@@ -31,6 +32,7 @@ $(document).ready(function() {
     });
 
     $("button#venus-button").click(function() {
+      $("#place-holder").fadeOut(1500);
       $("#mercury").fadeOut(1500);
       $("#mars").fadeOut(1500);
       $("#jupiter").fadeOut(1500);
@@ -40,6 +42,7 @@ $(document).ready(function() {
       venus.calcRemaining();
 
       setTimeout(function() {
+        $("#place-holder").fadeOut(1500);
         $("#venus-age").text(venus.relativeAge);
         $("#venus-remaining").text(venus.yearsRemaining);
         $("#venus").fadeIn(1500);
@@ -47,6 +50,7 @@ $(document).ready(function() {
     });
 
     $("button#mars-button").click(function() {
+      $("#place-holder").fadeOut(1500);
       $("#mercury").fadeOut(1500);
       $("#venus").fadeOut(1500);
       $("#jupiter").fadeOut(1500);
@@ -63,6 +67,7 @@ $(document).ready(function() {
     });
 
     $("button#jupiter-button").click(function() {
+      $("#place-holder").fadeOut(1500);
       $("#mercury").fadeOut(1500);
       $("#venus").fadeOut(1500);
       $("#mars").fadeOut(1500);

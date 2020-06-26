@@ -6,4 +6,10 @@ describe('venus', () => {
     let newVenus = new Venus;
     expect(newVenus).toBeInstanceOf(Venus);
     });
+
+  test('should correctly calculate relative age on mercury', () => {
+    let newVenus = new Venus(33);
+    newVenus.calcAge();
+    expect(newVenus.relativeAge).toEqual(20);
+    });
 })

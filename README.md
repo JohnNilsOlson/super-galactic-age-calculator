@@ -23,7 +23,11 @@ User enters thier age to determine their relative age and years of life remainin
 | Program calculates users remaining years of life on Jupiter | 33 | 451 |
 
 ## Technologies Used
+HTML  
+CSS  
+Bootstrap  
 JavaScript  
+jQuery
 webpack  
 
 ## Installation Instructions

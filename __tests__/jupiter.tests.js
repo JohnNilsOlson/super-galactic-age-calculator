@@ -19,6 +19,6 @@ describe('jupiter', () => {
   });
 
   test('should correctly calculate remaining years of life on mercury', () => {
-    expect(newJUpiter.yearsRemaining).toEqual(451);
+    expect(newJupiter.yearsRemaining).toEqual(451);
   });
 });

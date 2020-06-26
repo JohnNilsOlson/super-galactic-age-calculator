@@ -21,5 +21,29 @@ $(document).ready(function() {
       $("#mercury-age").text(mercury.relativeAge);
       $("#mercury-remaining").text(mercury.yearsRemaining);
     });
+
+    $("button#venus").click(function() {
+      let venus = new Venus(age);
+      venus.calcAge();
+      venus.calcRemaining();
+      $("#venus-age").text(venus.relativeAge);
+      $("#venus-remaining").text(venus.yearsRemaining);
+    });
+
+    $("button#mars").click(function() {
+      let mars = new Mars(age);
+      mars.calcAge();
+      mars.calcRemaining();
+      $("#mars-age").text(mars.relativeAge);
+      $("#mars-remaining").text(mars.yearsRemaining);
+    });
+
+    $("button#jupiter").click(function() {
+      let jupiter = new Jupiter(age);
+      jupiter.calcAge();
+      jupiter.calcRemaining();
+      $("#jupiter-age").text(jupiter.relativeAge);
+      $("#jupiter-remaining").text(jupiter.yearsRemaining);
+    });
   });
 });

@@ -3,4 +3,8 @@ export class Jupiter {
     this.age = age;
     this.relativeYear = 11.86;
   }
+
+  calcAge() {
+    
+  }
 }

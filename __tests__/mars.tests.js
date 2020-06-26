@@ -19,6 +19,6 @@ describe('mars', () => {
   });
 
   test('should correctly calculate remaining years of life on mercury', () => {
-    expect(newMars.yearsRemaining).toEqual(100);
+    expect(newMars.yearsRemaining).toEqual(71);
   });
 });

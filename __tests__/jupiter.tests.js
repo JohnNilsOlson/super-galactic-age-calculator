@@ -7,6 +7,7 @@ describe('jupiter', () => {
   beforeEach(() => {
     newJupiter = new Jupiter(33);
     newJupiter.calcAge();
+    newJupiter.calcRemaining();
   });
 
   test('should correctly build jupiter object', () => {
@@ -15,5 +16,9 @@ describe('jupiter', () => {
 
   test('should correctly calculate relative age on mercury', () => {
     expect(newJupiter.relativeAge).toEqual(391);
+  });
+
+  test('should correctly calculate remaining years of life on mercury', () => {
+    expect(newJUpiter.yearsRemaining).toEqual(451);
   });
 });

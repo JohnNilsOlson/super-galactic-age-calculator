@@ -13,5 +13,13 @@ $(document).ready(function() {
     event.preventDefault();
     const age = $("input#inputted-age").val();
     $("#earth-age").text(age);
+  
+    $("button#mercury").click(function() {
+      let mercury = new Mercury(age);
+      mercury.calcAge();
+      mercury.calcRemaining();
+      $("#mercury-age").text(mercury.relativeAge);
+      $("#mercury-remaining").text(mercury.yearsRemaining);
+    });
   });
 });

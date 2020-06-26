@@ -1,5 +1,5 @@
 export class Mercury {
-  constructor(age, relativeYear, relativeAge) {
+  constructor(age, relativeYear, relativeAge, yearsRemaining) {
     this.age = age;
     this.relativeYear = .24;
   }
@@ -9,6 +9,6 @@ export class Mercury {
   }
 
   calcRemaining() {
-
+    this.yearsRemaining = Math.round((71 * this.relativeYear) - this.relativeAge);
   }
 }

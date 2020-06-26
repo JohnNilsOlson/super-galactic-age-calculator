@@ -35,12 +35,18 @@ webpack
   1. Open Git Bash.
   2. Change the current working directory to the location where you would like to clone the repository.
   3. Type "git clone" followed by "https://github.com/JohnNilsOlson/super-galactic-age-calculator" (without quotes) and hit enter.
+  4. Type "npm install".
+  5. Type "npm run start".
 
 * Download instructions.
   1. Visit https://github.com/JohnNilsOlson/super-galactic-age-calculator
   2. Click on the green "Clone or download" button.
   3. Click on the "Download zip" button.
   4. Extract zip file to directory of choice.
+  5. Open Git Bash.
+  6. Change the current working directory to "../super-galactic-age-calculator"
+  7. Type "npm install".
+  8. Type "npm run start".
 
 ## Bugs
 No known issues.

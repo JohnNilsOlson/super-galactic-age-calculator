@@ -9,6 +9,6 @@ export class Venus {
   }
 
   calcRemaining() {
-
+    this.yearsRemaining = Math.round((71 * this.relativeYear) - this.relativeAge);
   }
 }

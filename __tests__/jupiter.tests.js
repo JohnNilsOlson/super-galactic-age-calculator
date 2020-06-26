@@ -6,4 +6,4 @@ describe('jupiter', () => {
     let newJupiter = new Jupiter;
     expect(newJupiter).toBeInstanceOf(Jupiter);
   });
-}
+});

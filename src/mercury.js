@@ -3,4 +3,8 @@ export class Mercury {
     this.age = age;
     this.relativeYear = .24;
   }
+
+  calcAge() {
+    
+  }
 }

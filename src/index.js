@@ -14,7 +14,7 @@ $(document).ready(function() {
     const age = $("input#inputted-age").val();
     $("#earth-age").text(age);
   
-    $("button#mercury").click(function() {
+    $("button#mercury-button").click(function() {
       $("#venus").fadeOut(1500);
       $("#mars").fadeOut(1500);
       $("#jupiter").fadeOut(1500);
@@ -30,7 +30,7 @@ $(document).ready(function() {
       },1500);
     });
 
-    $("button#venus").click(function() {
+    $("button#venus-button").click(function() {
       $("#mercury").fadeOut(1500);
       $("#mars").fadeOut(1500);
       $("#jupiter").fadeOut(1500);
@@ -46,7 +46,7 @@ $(document).ready(function() {
       },1500);
     });
 
-    $("button#mars").click(function() {
+    $("button#mars-button").click(function() {
       $("#mercury").fadeOut(1500);
       $("#venus").fadeOut(1500);
       $("#jupiter").fadeOut(1500);
@@ -62,7 +62,7 @@ $(document).ready(function() {
       },1500);
     });
 
-    $("button#jupiter").click(function() {
+    $("button#jupiter-button").click(function() {
       $("#mercury").fadeOut(1500);
       $("#venus").fadeOut(1500);
       $("#mars").fadeOut(1500);

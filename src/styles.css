@@ -1,4 +1,9 @@
 .planet {
   display: none;
+  margin: auto;
 }
 
+img {
+  width: 500px;
+  border-radius: 25px;
+}

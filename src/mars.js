@@ -3,4 +3,8 @@ export class Mars {
     this.age = age;
     this.relativeYear = 1.88;
   }
+
+  calcAge() {
+    
+  }
 }

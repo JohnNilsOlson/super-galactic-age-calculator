@@ -7,6 +7,7 @@ describe('mars', () => {
   beforeEach(() => {
     newMars = new Mars(33);
     newMars.calcAge();
+    newMars.calcRemiaing();
   });
 
   test('should correctly build mercury object', () => {
@@ -15,5 +16,9 @@ describe('mars', () => {
 
   test('should correctly calculate relative age on mercury', () => {
     expect(newMars.relativeAge).toEqual(62);
+  });
+
+  test('should correctly calculate remaining years of life on mercury', () => {
+    expect(newMars.yearsRemaining).toEqual(100);
   });
 });

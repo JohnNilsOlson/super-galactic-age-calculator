@@ -5,10 +5,10 @@ export class Venus {
   }
 
   calcAge() {
-    this.relativeAge = Math.round(this.age * this.relativeYear);
+    this.relativeAge = Math.round(this.age / this.relativeYear);
   }
 
   calcRemaining() {
-    this.yearsRemaining = Math.round((71 * this.relativeYear) - this.relativeAge);
+    this.yearsRemaining = Math.round((71 / this.relativeYear) - this.relativeAge);
   }
 }

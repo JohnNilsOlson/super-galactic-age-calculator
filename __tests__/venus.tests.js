@@ -15,10 +15,10 @@ describe('venus', () => {
   });
 
   test('should correctly calculate relative age on mercury', () => {
-    expect(newVenus.relativeAge).toEqual(20);
+    expect(newVenus.relativeAge).toEqual(53);
   });
 
   test('should correctly calculate remaining years of life on venus', () => {
-    expect(newVenus.yearsRemaining).toEqual(24);
+    expect(newVenus.yearsRemaining).toEqual(62);
   });
 });

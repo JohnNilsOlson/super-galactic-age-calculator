@@ -15,10 +15,10 @@ describe('mars', () => {
   });
 
   test('should correctly calculate relative age on mercury', () => {
-    expect(newMars.relativeAge).toEqual(62);
+    expect(newMars.relativeAge).toEqual(18);
   });
 
   test('should correctly calculate remaining years of life on mercury', () => {
-    expect(newMars.yearsRemaining).toEqual(71);
+    expect(newMars.yearsRemaining).toEqual(20);
   });
 });

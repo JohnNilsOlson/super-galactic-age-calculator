@@ -1,5 +1,5 @@
 export class Mercury {
-  constructor(age, relativeYear, relativeAge, yearsRemaining) {
+  constructor(age) {
     this.age = age;
     this.relativeYear = .24;
   }

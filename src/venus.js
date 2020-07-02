@@ -1,5 +1,5 @@
 export class Venus {
-  constructor(age, relativeYear, relativeAge) {
+  constructor(age) {
     this.age = age;
     this.relativeYear = .62;
   }

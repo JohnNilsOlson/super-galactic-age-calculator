@@ -1,5 +1,5 @@
 export class Mars {
-  constructor(age, relativeYear, relativeAge) {
+  constructor(age) {
     this.age = age;
     this.relativeYear = 1.88;
   }
